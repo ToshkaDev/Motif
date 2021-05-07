@@ -1,6 +1,6 @@
 # Motif
 
-We discovered a universal amino acid binding motif present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life. 
+We discovered a universal amino acid binding motif present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life (link to the paper: https://doi.org/10.1101/2021.05.05.442820). 
 The motif in its canonical form has the following definition: 
 
 Y....R.WY{n1}Y{n2}D.
@@ -50,6 +50,7 @@ Positions corresponding to the motif in the **second** dCache_1 domain in the MS
 Y(**1690**)....R(**1696**).W(**1698**)Y(**1699**){n1}Y(**1724**){n2}D(**1866**)
 
 
+*V. M. Gumerov, E. P. Andrianova, M. A. Matilla, A. C. Dolphin, T. Krell, I. B. Zhulin (2020). Amino acid sensor conserved from bacteria to humans. https://doi.org/10.1101/2021.05.05.442820*
 
 
 

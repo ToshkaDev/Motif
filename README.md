@@ -1,6 +1,6 @@
 # Motif
 
-We discovered a universal amino acid binding motif present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life (link to the paper: https://doi.org/10.1101/2021.05.05.442820). 
+We have discovered a universal amino acid binding motif present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life (link to the paper: https://doi.org/10.1101/2021.05.05.442820). 
 The motif in its canonical form has the following definition: 
 
 Y....R.WY{n1}Y{n2}D.
@@ -9,7 +9,9 @@ Studying variability of the motif positions in experimentally studied organisms 
 
 [YFWL]....[RK].W[WYF]{n1}[YF]{n2}[D].
 
-In these expressions brackets mean that any amino acid inside the given brackets can be present in the corresponding position, n1 - a varying distance of approximately 13-17 amino acid residues, n2 - a varying distance of approximately 27-34 residues. In eukaryotic dCache_1 containing proteins with the VWA domain insertion n1 is a varying distance of approximately 215-245 amino acid residues. 
+In these expressions any amino acid inside the given brackets can be present in the corresponding position, n1 - a varying distance of approximately 13-17 amino acid residues, n2 - a varying distance of approximately 27-34 residues. 
+
+As we have established, two dCache_1 domains are present in eukaryotic proteins that have the motif. In alpha2/delta-1 subunits of Voltage gated calcium channels and in their homologs the motif is present in the dCache_1 domain with the VWA insertion that splits the motif in two parts, and, correspondingly, n1 in the above expression is a varying distance of approximately 215-245 amino acid residues. In CACHD1 proteins and in their homologs the motif is present in the second dCache_1 domain that does not have the VWA insertion and, correspondengly, the distance is within the regular range of 27-34 residues.  
 
 ## Multiple sequence alignments
 Using the generalized universal amino acid binding motif (AA_motif) definition we scanned three protein sequence databases: GTDB (representative dataset; https://gtdb.ecogenomic.org/), NCBI RefSeq (https://www.ncbi.nlm.nih.gov/refseq/), and Uniprot (https://www.uniprot.org/). The details of this procedure can be found in Materials and Methods section of the paper describing the discovery of the motif throughout the Tree of Life.

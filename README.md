@@ -51,8 +51,22 @@ Y(**415**)....R(**420**).W(**422**)Y(**423**){n1}Y(**846**){n2}D(**970**)
 Positions corresponding to the motif in the **second** dCache_1 domain in the MSA of eukayotic proteins (in those proteins, in which the motif is preserved):
 Y(**1690**)....R(**1696**).W(**1698**)Y(**1699**){n1}Y(**1724**){n2}D(**1866**)
 
+### Phylogenetic trees of Eukaryotic dCache_1AA proteins are located in Eukaryotes folder. 
 
-*V. M. Gumerov, E. P. Andrianova, M. A. Matilla, A. C. Dolphin, T. Krell, I. B. Zhulin (2020). Amino acid sensor conserved from bacteria to humans. https://doi.org/10.1101/2021.05.05.442820*
+There are two trees in the folder: (i) inferred using maximum likelihood estimation implemented in RaXML and (ii) inferred using Bayesian inference implemented in MrBayes.
+
+## Modeled structures of dCache_1AA domain protein sensors from various phyla of Archaea and Bacteria are located in RefSeq folder (zip archive 'Structures_modeled_by_Phyre2.zip'). The structures were modeled by Phyre2. 
+
+## Structures of eukaryotic dCache_1AA proteins, alpha2/delta-1 and CACHD1, docked with ligands are located in Eukaryotes/Structures_Autodock folder. 
+
+The list of files in the folder:
+
+File 1. Rabbit_alpha2delta1_docked_with_ligands.pdb   Cryo-EM structure was used for docking experiments. 
+File 2. Fly_alpha2delta1_docked_with_ligands.pdb      AlphaFold model was used for docking experiments.
+File 3. Human_CACHD1_docked_with_ligands.pdb          AlphaFold model was used for docking experiments.
+File 4. Fly_CACHD1_docked_with_ligands.pdb            AlphaFold model was used for docking experiments.
+
+*V. M. Gumerov, E. P. Andrianova, M. A. Matilla, Karen M. Page, Elizabet Monteagudo-Cascales, A. C. Dolphin, T. Krell, I. B. Zhulin (2020). Amino acid sensor conserved from bacteria to humans. https://doi.org/10.1101/2021.05.05.442820*
 
 
 

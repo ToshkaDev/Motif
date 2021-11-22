@@ -1,16 +1,22 @@
 # Motif
 
-##Table of Contents
-[Multiple sequence alignments](https://github.com/ToshkaDev/Motif#multiple-sequence-alignments)
-&nbsp;&nbsp;&nbsp;[The RefSeq alignment](https://github.com/ToshkaDev/Motif#the-refseq-alignment)
-&nbsp;&nbsp;&nbsp;[The Uniprot alignment](https://github.com/ToshkaDev/Motif#the-uniprot-alignment)
-&nbsp;&nbsp;&nbsp;[The GTDB alignment](https://github.com/ToshkaDev/Motif#the-gtdb-alignment)
-&nbsp;&nbsp;&nbsp;[Eukaryotic alignment](https://github.com/ToshkaDev/Motif#eukaryotic-alignment)
-[Phylogenetic trees of Eukaryotic dCache_1AA proteins](https://github.com/ToshkaDev/Motif#phylogenetic-trees-of-eukaryotic-dcache_1aa-proteins)
-[Structures, models, and molecular docking](https://github.com/ToshkaDev/Motif#structures-models-and-molecular-docking)
-&nbsp;&nbsp;&nbsp;[Modeled structures of prokaryotic dCache_1AA domain protein sensors ](https://github.com/ToshkaDev/Motif#modeled-structures-of-prokaryotic-dcache_1aa-domain-protein-sensors)
-&nbsp;&nbsp;&nbsp;[Structures of eukaryotic dCache_1AA proteins docked with ligands](https://github.com/ToshkaDev/Motif#structures-of-eukaryotic-dcache_1aa-proteins-docked-with-ligands)	
+### Table of Contents
 
+[Multiple sequence alignments](https://github.com/ToshkaDev/Motif#multiple-sequence-alignments)
+
+* [The RefSeq alignment](https://github.com/ToshkaDev/Motif#the-refseq-alignment)
+* [The Uniprot alignment](https://github.com/ToshkaDev/Motif#the-uniprot-alignment)
+* [The GTDB alignment](https://github.com/ToshkaDev/Motif#the-gtdb-alignment)
+* [Eukaryotic alignment](https://github.com/ToshkaDev/Motif#eukaryotic-alignment)
+
+[Phylogenetic trees of Eukaryotic dCache_1AA proteins](https://github.com/ToshkaDev/Motif#phylogenetic-trees-of-eukaryotic-dcache_1aa-proteins)
+
+[Structures, models, and molecular docking](https://github.com/ToshkaDev/Motif#structures-models-and-molecular-docking)
+
+* [Modeled structures of prokaryotic dCache_1AA domain protein sensors ](https://github.com/ToshkaDev/Motif#modeled-structures-of-prokaryotic-dcache_1aa-domain-protein-sensors)
+* [Structures of eukaryotic dCache_1AA proteins docked with ligands](https://github.com/ToshkaDev/Motif#structures-of-eukaryotic-dcache_1aa-proteins-docked-with-ligands)	
+
+-----------
 We have discovered a universal amino acid binding motif (AA_motif) present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life (link to the paper: https://doi.org/10.1101/2021.05.05.442820). 
 The motif in its canonical form has the following definition: 
 
@@ -33,21 +39,25 @@ Extracting regions corresponding to the dCache_1 domains in the identified prote
 The RefSeq alignment is in **RefSeq** folder. There are **32395** dCache_1 domain containing proteins in the RefSeq database that have the amino acid binding motif.
 
 Positions corresponding to the motif in this MSA:
+
 Y(**2091**)....R(**2302**).W(**2385**)Y(**2414**){n1}Y(**2727**){n2}D(**3326**)
 
 ### The Uniprot alignment
 The Uniprot alignment is in **Uniprot** folder. There are **11330** dCache_1 domain containing proteins in the Uniprot database that have the amino acid binding motif.
 
 Positions corresponding to the motif in this MSA:
+
 Y(**308**)....R(**313**).W(**315**)Y(**316**){n1}Y(**345**){n2}D(**420**)
 
 ### The GTDB alignment
 The GTDB alignment is in **GTDB_Representative_Set** folder. There are **10700** bacterial and **114** archaeal dCache_1 domain containing proteins in the GTDB database that have the universal amino acid binding motif.
 
-Positions corresponding to the motif in the bacterial proteins MSA: 
+Positions corresponding to the motif in the bacterial proteins MSA:
+ 
 Y(**1160**)....R(**1278**).W(**1290**)Y(**1291**){n1}Y(**1431**){n2}D(**1647**)
 
 Positions corresponding to the motif in the archaeal proteins MSA:
+
 Y(**163**)....R(**168**).W(**170**)Y(**171**){n1}Y(**189**){n2}D(**219**)
 
 ### Eukaryotic alignment
@@ -58,16 +68,20 @@ As eukaryotic alpha-2/delta-1 and CACHD1 proteins comprised of two dCache_1 doma
 
 MSA of double dCache_1AA proten sequences from the representative set of eukaryotic organisms (file *Eukaryotes_double_dCache_1_aln.fa*).
 Positions corresponding to the motif in the **first** dCache_1 domain (in those proteins, in which the motif is preserved):
+
 Y(**295**)....R(**300**).W(**302**)Y(**303**){n1}Y(**648**){n2}D(**715**)
 
 Positions corresponding to the motif in the **second** dCache_1 domain (in those proteins, in which the motif is preserved):
+
 Y(**1231**)....R(**1236**).W(**1242**)Y(**1243**){n1}Y(**1265**){n2}D(**1363**)
 
 MSA of all dCache_1AA proten sequences from the complete set of eukaryotic organisms (zip archive *Eukaryotic_proteins_Complete_set_aln.fa.zip*):
 Positions corresponding to the motif in the **first** dCache_1 domain (in those proteins, in which the motif is preserved):
+
 Y(**8986**)....R(**8999**).W(**9001**)Y(**9002**){n1}Y(**11639**){n2}D(**12545**)
 
 Positions corresponding to the motif in the **second** dCache_1 domain (in those proteins, in which the motif is preserved):
+
 Y(**16149**)....R(**16226**).W(**16228**)Y(**16229**){n1}Y(**16362**){n2}D(**17717**)
 
 
@@ -88,15 +102,19 @@ Structures of alpha2/delta-1 and CACHD1 are located in Eukaryotes/Structures_Aut
 The list of files in the folder:
 
 1. File 1. *Rabbit_alpha2delta1_docked_with_ligands.pdb*
-The cryo-EM structure was used for docking experiments.
+
+A cryo-EM structure was used for docking experiments.
  
 2. File 2. *Fly_alpha2delta1_docked_with_ligands.pdb*
+
 An AlphaFold model was used for docking experiments.
 
 3. File 3. *Human_CACHD1_docked_with_ligands.pdb*
+
 An AlphaFold model was used for docking experiments.
 
 4. File 4. *Fly_CACHD1_docked_with_ligands.pdb*
+
 An AlphaFold model was used for docking experiments.
 
 *V. M. Gumerov, E. P. Andrianova, M. A. Matilla, Karen M. Page, Elizabet Monteagudo-Cascales, A. C. Dolphin, T. Krell, I. B. Zhulin (2020). Amino acid sensor conserved from bacteria to humans. https://doi.org/10.1101/2021.05.05.442820*

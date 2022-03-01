@@ -17,7 +17,7 @@
 * [Structures of eukaryotic dCache_1AA proteins docked with ligands](https://github.com/ToshkaDev/Motif#structures-of-eukaryotic-dcache_1aa-proteins-docked-with-ligands)
 
 -----------
-We have discovered a universal amino acid binding motif (AA_motif) present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life (link to the paper: https://doi.org/10.1101/2021.05.05.442820). 
+We have discovered a universal amino acid binding motif (AA_motif) present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life (link to the paper: https://www.pnas.org/doi/10.1073/pnas.2110415119). 
 The motif in its canonical form has the following definition: 
 
 Y....R.WY{n1}Y{n2}D.

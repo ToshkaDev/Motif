@@ -16,6 +16,8 @@
 * [Modeled structures of prokaryotic dCache_1AA domain protein sensors ](https://github.com/ToshkaDev/Motif#modeled-structures-of-prokaryotic-dcache_1aa-domain-protein-sensors)
 * [Structures of eukaryotic dCache_1AA proteins docked with ligands](https://github.com/ToshkaDev/Motif#structures-of-eukaryotic-dcache_1aa-proteins-docked-with-ligands)
 
+[Discovery](https://github.com/ToshkaDev/Motif#discovery)
+
 -----------
 We have discovered a universal amino acid binding motif (AA_motif) present in dCache_1 domain (http://pfam.xfam.org/family/PF02743) containing proteins throughout the Tree of Life (link to the paper: https://www.pnas.org/doi/10.1073/pnas.2110415119). 
 The motif in its canonical form has the following definition: 
@@ -117,6 +119,16 @@ An AlphaFold model was used for docking experiments.
 
 An AlphaFold model was used for docking experiments.
 
+## Discovery
 
+In 2019 I was investigating the mechanism of amino acid binding by three paralogous chemoreceptors encoded in the genome of the pathogenic bacterium *Pseudomonas aeruginosa PAO1*. While analyzing crystal structures of their sensor dCache_1 domains I have noticed that among the residues making hydrogen bonds with amino acid ligands five were common for all three paralogs. Exploring protein sequences of dCache_1 domain from all Proeobacteria I have established that positions corresponding to these five residues and one more are conserved throughout Proeobacteria. This was the first sign that I found an important and probably widely distributed motif. In the next step I have scanned all available bacterial and archaeal proteins for the presence of the motif and found it essentially in all bacterial and archaeal phyla that had available sequenced genomes. 
+
+While analyzing proteins in the UniProt database, to my surprise, I found the motif in some ancient eukaryotes. The next step was a leap of faith: I have immediately decided to look at the proteoms of vertebrate. I was doing my search using the string corresponding to the motif completely ignoring whether I am looking at dCache_1 domain or any other domain. To my great surprise I found the motif in the proteome of bull. This was truly amazing! What I found next was puzzling at first. In some eukaryotic proteins only the first part of the motif was present, while in others the entire motif was found. Investigating multiple sequence alignments I have later established that in those proteins that had just the first part of the motif, the second part was located more than 200 amino acids C-terminally and that there is an insertion between the two parts that split the motif. In eukaryotes the proteins I found the motif in were alpha2/delta and CACHD1 modulatory subunits of Voltage Gated Calcium channels. In CACHD1 homologs the motif was intact – no insertion splitting it, wheres in alpha2/delta the motif was split in two parts. At this point I did not have a complete understanding what these proteins were from the structural point of view. 
+
+In the same 2019 the rabbit alpha2/delta-1 protein Cryo-EM was published and the authors of the work claimed that the protein includes four Cache domains and VWA domain. I have depicted my findings on the board in the lab and these domains and a wild guess hit me: these are not four Cache domains, but 2 dCache_1 domains and the motif is located in the distal pocket of the N-terminal dCache_1 in alpha2/delta protein and of the C-terminal in CACHD1. Next, I have decided to do something unimaginable in the opinion of some of my colleagues – superimpose structurally the bacterial dCache_1 domain with the alpha2/delta-1 protein. And -  success! The bacterial dCache_1 domain could be strcuturally aligned with too parts of the protein and those parts looked like the bacterial domain. Next, I found that the two parts of the motif, that are split by the VWA domain insertion, come together spatially forming the same interaface as in the bacterial proteins!    
+
+Another realization was that the C-terminal dCache_1 is inserted into the N-terminal one. Thus, two insertions occurred that gave rise to eukaryotic proteins!  And as my molecular docking experiments and the experiments from the collaborating labs showed the functionality of the motif was not affected neither in CACHD1 nor in alpha2/delta-1 proteins.
+
+Evolutionary analysis gave incredible results – in many proteins from pre-vertebrate eukaryotes the motif was preserved in both dCache_1 domains and over the course of evolution it was differentially lost in different groups of eukaryotes.
 
 
